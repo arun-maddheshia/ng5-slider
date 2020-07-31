@@ -1,8 +1,8 @@
 {
-  "name": "ng5-slider",
-  "version": "1.2.4",
+  "name": "@arun-maddheshia/ng5-slider",
+  "version": "1.2.4-1",
   "private": true,
-  "description": "Self-contained, mobile friendly slider component for Angular 5+ based on angularjs-slider",
+  "description": "Self-contained, mobile friendly slider component for Angular 5+ based on angularjs-slider. Customize version of ng5-slider.",
   "keywords": [
     "slider",
     "ui",
