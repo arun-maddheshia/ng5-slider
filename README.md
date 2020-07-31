@@ -1,5 +1,10 @@
 # ng5-slider
-[![npm version](https://badge.fury.io/js/ng5-slider.svg)](https://badge.fury.io/js/ng5-slider)
+
+## Note:
+
+Based on https://github.com/angular-slider/ng5-slider, upgraded to work with customize solution.
+
+[![npm version](https://badge.fury.io/js/%40arun-maddheshia%2Fng5-slider.svg)](https://badge.fury.io/js/%40arun-maddheshia%2Fng5-slider)
 [![Travis CI Build](https://travis-ci.org/angular-slider/ng5-slider.svg?branch=master)](https://travis-ci.org/angular-slider/ng5-slider)
 
 Website: https://angular-slider.github.io/ng5-slider/
@@ -43,12 +48,12 @@ Self-contained, mobile friendly slider component for Angular 5+ based on [angula
 
 To add the slider to your Angular project:
 ```
-npm install --save ng5-slider
+npm install --save @arun-maddheshia/ng5-slider
 ```
 
 Once installed, add the slider to your `app.module.ts`:
 ```typescript
-import { Ng5SliderModule } from 'ng5-slider';
+import { Ng5SliderModule } from '@arun-maddheshia/ng5-slider';
 
 ...
 
@@ -68,7 +73,7 @@ export class AppModule {}
 
 Now you can use the slider component in your app components, for example in `app.component.ts`:
 ```typescript
-import { Options } from 'ng5-slider';
+import { Options } from '@arun-maddheshia/ng5-slider';
 ...
 
 @Component({...})

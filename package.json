@@ -1,6 +1,6 @@
 {
   "name": "@arun-maddheshia/ng5-slider",
-  "version": "1.2.4-1",
+  "version": "2.0.0",
   "private": true,
   "description": "Self-contained, mobile friendly slider component for Angular 5+ based on angularjs-slider. Customize version of ng5-slider.",
   "keywords": [
@@ -16,16 +16,16 @@
     "angular5",
     "ng5"
   ],
-  "author": "Piotr Dziwinski",
+  "author": "Piotr Dziwinski; Arun Maddheshia<arun.maddheshia@gmail.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/angular-slider/ng5-slider.git"
+    "url": "https://github.com/arun-maddheshia/ng5-slider.git"
   },
   "bugs": {
-    "url": "https://github.com/angular-slider/ng5-slider/issues"
+    "url": "https://github.com/arun-maddheshia/ng5-slider/issues"
   },
-  "homepage": "https://github.com/angular-slider/ng5-slider#readme",
+  "homepage": "https://github.com/arun-maddheshia/ng5-slider#readme",
   "scripts": {
     "prepare": "npm run prepare:lib && npm run prepare:demo-app",
     "prepare:lib": "node scripts/generate-lib-files.js",
@@ -39,7 +39,8 @@
     "test:once": "npm run prepare && ng test --watch=false",
     "lint": "npm run prepare && ng lint",
     "e2e": "npm run prepare && ng e2e --environment=e2e",
-    "ci": "npm run test:once && npm run e2e && npm run lint && npm run build:lib && npm run build:demo-app"
+    "ci": "npm run test:once && npm run e2e && npm run lint && npm run build:lib && npm run build:demo-app",
+    "publish-package": "npm run build:lib && cd dist/ng5-slider && npm publish --access=public"
   },
   "dependencies": {
     "@angular/animations": ">=5.0.2",
@@ -77,6 +78,7 @@
     "karma-jasmine-html-reporter": "^0.2.2",
     "mkdirp": "^0.5.1",
     "ng-packagr": "^2.4.2",
+    "node-sass": "^4.14.1",
     "prismjs": "^1.14.0",
     "protractor": "~5.1.2",
     "protractor-console-plugin": "^0.1.1",
